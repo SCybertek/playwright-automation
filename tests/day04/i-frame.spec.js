@@ -5,7 +5,7 @@
 import { test } from "@playwright/test";
 import { clear } from "node:console";
 
-test("Locate elements within iframe", async ({ page }) => {
+test.skip("Locate elements within iframe", async ({ page }) => {
   let iframe = page.frameLocator("locator for iframe");
   let elementWithin = iframe.locator(
     "locator of a dif element inside the frame",

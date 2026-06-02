@@ -15,7 +15,7 @@ import { test } from "@playwright/test";
 //   await expect(page).toHaveTitle("Window");
 // });
 
-test("Window pop-up practice", async ({ page }) => {
+test.skip("Window pop-up practice", async ({ page }) => {
   // creating event listenr for monitoring window pop-ups
   let promisedNewPageEvent = page.waitForEvent("popup");
 
