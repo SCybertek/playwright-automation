@@ -11,7 +11,7 @@ test("Getting current url ", async ({ page }) => {
   await page.goto(url);
   let actualUrl = await page.url();
   console.log(actualUrl);
-  await page.waitForTimeout(30000);
+  await page.waitForTimeout(3000);
   let searchBox = page.locator();
 });
 
