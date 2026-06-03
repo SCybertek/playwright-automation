@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "tests": "npx playwright test",
+    "tests:headless": "npx playwright test",
     "test:specific": "npx playwright test tests/day01/first_practice.js",
     "test:tag": "npx playwright test --grep @env-test",
     "report": "npx playwright show-report"
