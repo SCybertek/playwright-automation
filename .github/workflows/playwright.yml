@@ -4,7 +4,7 @@ on:
     branches: [main, master]
   pull_request:
     branches: [main, master]
-  scheduele:
+  schedule:
     - cron: "0 0 * * *" # Runs every day at midnight
   workflow_dispatch: # Allows manual trigger of the workflow from GitHub Actions tab
 jobs:
