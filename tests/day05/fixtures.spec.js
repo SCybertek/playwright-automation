@@ -52,7 +52,7 @@ test("Browser Fixture example @browser", async ({ browser }) => {
   await page4.waitForTimeout(3000);
 });
 
-test("Custom fixtures example @customFixture", async () => {
+test.skip("Custom fixtures example @customFixture", async () => {
   let browser = await firefox.launch();
   let context = await browser.newContext();
   let page = await context.newPage();

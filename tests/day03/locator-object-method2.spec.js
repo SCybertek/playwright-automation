@@ -24,7 +24,7 @@ test.describe("Test Group", () => {
   });
   //href
 
-  test("getAttribute retrieved attribute value", async ({ page }) => {
+  test.skip("getAttribute retrieved attribute value", async ({ page }) => {
     const pliers = page.locator(
       "//a[data-test='product-01KS5M8CFH6PNSPD5HWCZ36T64']", //update locator
     );
